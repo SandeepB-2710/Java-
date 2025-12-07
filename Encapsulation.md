@@ -1,4 +1,4 @@
-## 1. What is encapsulation in Java?
+# 1. What is encapsulation in Java?
 Answer:
 
 Encapsulation is the concept of wrapping data (variables) and code (methods) into a single unit and hiding the internal details from outside access. 
