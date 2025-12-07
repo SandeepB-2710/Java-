@@ -1,3 +1,6 @@
+# ENCAPSULATION
+
+
 ### 1. What is encapsulation in Java?
 Answer:
 
