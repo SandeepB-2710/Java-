@@ -37,9 +37,6 @@ This adds all the files in the folder to a "staging area," getting them ready to
    
 Analogy: You are gathering all your items and putting them into a box, but you haven't sealed the box yet.  
 
-
-
-
 3
 ```git commit -m "Initial commit"```
 
