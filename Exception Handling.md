@@ -96,10 +96,18 @@ D) Stack trace
 
 
 ### Answer Key: Java Exception Handling
+
+
 <br>
+
+
 ## Detailed Explanations
+
+
 <br>
-### Question 1: 
+
+
+## Question 1: 
 
 [C] The primary goal is to handle runtime errors so that the normal flow of the application continues instead of crashing.
 <br>
