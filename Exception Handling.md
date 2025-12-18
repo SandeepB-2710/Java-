@@ -66,3 +66,46 @@ B) Exception report
 C) Call graph 
 
 D) Stack trace 
+
+
+
+
+
+### Answer Key: Java Exception Handling
+
+
+
+| Question Number | Correct Option | Key Technical Term |
+| :--- | :--- | :--- |
+| **Question 1** | **C** | **Normal Flow** |
+| **Question 2** | **B** | **Runtime Issue** |
+| **Question 3** | **C** | **Unexpected Events** |
+| **Question 4** | **B** | **Invalid Index** |
+| **Question 5** | **C** | **ArrayIndexOutOfBoundsException** |
+| **Question 6** | **A** | **FileNotFoundException** |
+| **Question 7** | **D** | **Stack Trace** |
+
+
+
+### Answer Key: Java Exception Handling
+
+
+### Detailed Explanations
+
+
+Question 1: [C] The primary goal is to handle runtime errors so that the normal flow of the application continues instead of crashing.
+
+Question 2: [B] An exception is a runtime issue; it differs from compile-time errors which prevent the code from running at all.
+
+Question 3: [C] Exceptions are triggered by unexpected events during execution, such as invalid user input or resource unavailability.
+
+Question 4: [B] Accessing an invalid array index is a logical runtime error, whereas the other options are syntax errors caught by the compiler.
+
+Question 5: [C] The specific Java class for array errors is ArrayIndexOutOfBoundsException.
+
+Question 6: [A] A FileNotFoundException is specifically thrown when a file stream cannot locate the file on the disk.
+
+Question 7: [D] A Stack trace provides a snapshot of the call stack, showing exactly where the error originated.
+
+
+
