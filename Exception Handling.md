@@ -9,6 +9,8 @@ C) To handle runtime errors and maintain the normal flow of the program.
 
 D) To compile the program successfully.
 
+<br>
+
 ## 2. What constitutes an exception in Java?
 A) An error that occurs at compile time.
 
@@ -17,6 +19,8 @@ B) A runtime issue that disrupts the normal flow of the program.
 C) A warning message during code compilation.
 
 D) A syntax error in the source code.
+
+<br>
 
 ## 3. Why and when do exceptions occur in Java?
 A) When the program is syntactically incorrect.
@@ -27,6 +31,8 @@ C) When unexpected events occur during runtime, disrupting the normal flow.
 
 D) When the Java compiler encounters an unknown keyword.
 
+<br>
+
 ## 4. Which of the following is a common scenario that can lead to exceptions in Java?
 A) Trying to declare variables without a data type.
 
@@ -36,6 +42,8 @@ C) Writing a program with improper indentation.
 
 D) Declaring multiple classes in a single Java file.
 
+<br>
+
 ## 5. One common reason for an exception to occur is when a program attempts to access an element in an array using an index that is out of bounds. This leads to which specific exception?
 A) NullPointerException 
 
@@ -44,6 +52,8 @@ B) FileNotFoundException
 C) ArrayIndexOutOfBoundsException 
 
 D) IndexOutOfRangeException 
+
+<br>
 
 
 ## 6. When reading from a file, if the file does not exist or cannot be found at the specified path, the program will throw a:
@@ -56,6 +66,8 @@ C) NullPointerException
 
 D) ResourceNotFoundException 
 
+<br>
+
 
 ## 7. If no catch block is found to handle an exception, the JVM's default exception handler prints the __________, which shows the sequence of method calls that led to the error.
 
@@ -67,13 +79,9 @@ C) Call graph
 
 D) Stack trace 
 
+<br>
 
-
-
-
-### Answer Key: Java Exception Handling
-
-
+## Answer Key: Java Exception Handling
 
 | Question Number | Correct Option | Key Technical Term |
 | :--- | :--- | :--- |
@@ -88,24 +96,36 @@ D) Stack trace
 
 
 ### Answer Key: Java Exception Handling
+<br>
+## Detailed Explanations
+<br>
+### Question 1: 
 
+[C] The primary goal is to handle runtime errors so that the normal flow of the application continues instead of crashing.
+<br>
+### Question 2: 
 
-### Detailed Explanations
+[B] An exception is a runtime issue; it differs from compile-time errors which prevent the code from running at all.
+<br>
+### Question 3: 
 
+[C] Exceptions are triggered by unexpected events during execution, such as invalid user input or resource unavailability.
+<br>
+### Question 4: 
 
-Question 1: [C] The primary goal is to handle runtime errors so that the normal flow of the application continues instead of crashing.
+[B] Accessing an invalid array index is a logical runtime error, whereas the other options are syntax errors caught by the compiler.
+<br>
+### Question 5: 
 
-Question 2: [B] An exception is a runtime issue; it differs from compile-time errors which prevent the code from running at all.
+[C] The specific Java class for array errors is ArrayIndexOutOfBoundsException.
+<br>
+### Question 6: 
 
-Question 3: [C] Exceptions are triggered by unexpected events during execution, such as invalid user input or resource unavailability.
+[A] A FileNotFoundException is specifically thrown when a file stream cannot locate the file on the disk.
+<br>
+### Question 7: 
 
-Question 4: [B] Accessing an invalid array index is a logical runtime error, whereas the other options are syntax errors caught by the compiler.
-
-Question 5: [C] The specific Java class for array errors is ArrayIndexOutOfBoundsException.
-
-Question 6: [A] A FileNotFoundException is specifically thrown when a file stream cannot locate the file on the disk.
-
-Question 7: [D] A Stack trace provides a snapshot of the call stack, showing exactly where the error originated.
+[D] A Stack trace provides a snapshot of the call stack, showing exactly where the error originated.
 
 
 
