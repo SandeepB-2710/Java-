@@ -149,7 +149,7 @@ This guide covers the essential concepts of exception handling in Java, focusing
 
 ---
 
-## 🚀 Key Points to Remember
+##  Key Points to Remember
 
 * **Rethrowing** means a method chooses not to handle the error and instead passes it to another method that can.
 * Use **`throw`** to manually create and send an exception when a serious problem is found.
@@ -163,7 +163,7 @@ This guide covers the essential concepts of exception handling in Java, focusing
 
 ---
 
-## 💡 Real-Life Analogies
+## Real-Life Analogies
 
 ### 1. Group Study Doubt
 You're asked a tough question in a group study. You try but can't answer it, so you **pass it to your senior**. That's **rethrowing**—you detected the problem but passed it up.
@@ -176,7 +176,7 @@ If there's smoke in a room, a sensor detects it and **triggers the alarm system*
 
 ---
 
-## ❓ Common Interview Questions & Answers
+## Questions & Answers
 
 **1. What is the difference between `throw` and `throws` in Java?**
 > **Answer:** `throw` is used **inside** a method to actually throw an exception. `throws` is used in the **method declaration** to indicate that a method might throw an exception.
@@ -195,7 +195,7 @@ If there's smoke in a room, a sensor detects it and **triggers the alarm system*
 
 ---
 
-## 📊 Quick Comparison: `throw` vs. `throws`
+## Quick Comparison: `throw` vs. `throws`
 
 | Feature | `throw` | `throws` |
 | :--- | :--- | :--- |
@@ -207,7 +207,7 @@ If there's smoke in a room, a sensor detects it and **triggers the alarm system*
 
 ---
 
-## 🔄 How the Flow Works
+## How the Flow Works
 
 
 
@@ -219,7 +219,7 @@ To help you visualize how these keywords interact in your code, remember this fl
 
 ---
 
-## 📝 Conclusion
+## Conclusion
 
 In real life, we don't always solve every problem ourselves—sometimes, we ask for help. In Java, rethrowing exceptions works in the same way. When a method faces a problem and cannot fix it, it uses `throw` to send the error, and `throws` to warn that the error might occur. This helps keep your program neat, clear, and well-structured.
 
