@@ -143,9 +143,7 @@ D) Stack trace
 
 
 
-# Java Exceptions: Throw, Throws, and Rethrowing
-
-This guide covers the essential concepts of exception handling in Java, focusing on how to signal, declare, and propagate errors effectively.
+# Java Exceptions: Throw & Throws.
 
 ---
 
